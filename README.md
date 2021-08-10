@@ -44,6 +44,7 @@ jobs:
           SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
           SSH_USERNAME: ${{secrets.SSH_USERNAME}}
           SSH_HOSTNAME: ${{secrets.SSH_HOSTNAME}}
+          SSH_PORT: ${{secrets.SSH_PORT}}
 ```
 
 ## Disclaimer
