@@ -9,7 +9,7 @@ Rsync files from a GitHub repo to a destination server over SSH
 | `SSH_PRIVATE_KEY`  | The private key part of an SSH key pair. The public key part should be added to the `authorized_keys` on the destination server. |
 | `SSH_USERNAME`     | The username to use when connecting to the destination server                                                                    |
 | `SSH_HOSTNAME`     | The hostname of the destination server                                                                                           |
-
+| `SSH_PORT`         | The port of sshd on the destination server                                                                                       |
 ## Required arguments
 
 | Argument           | Description                                                                                                                                          |
